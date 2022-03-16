@@ -13,8 +13,6 @@ All aircraft systems are implemented in Lua and can be freely used in other non-
 
 [Download Latest Devel](https://github.com/phrozen755/pnb/archive/refs/heads/devel.zip)
 
-[Livery Pack](https://mega.nz/file/UAxUmYAY#0PyL3pO6i5x2QTrBWEkE5LsqeKFW5IuSJG_Er42PAas)
-
 # Tutorial videos 
 
 # ED Forum
