@@ -1,24 +1,24 @@
-local self_ID  = "A-29B" 
+local self_ID  = "PnB" 
 
 declare_plugin(self_ID,
 {
-installed 	 = true, -- if false that will be place holder , or advertising
-displayName     = _("A-29B"),
-developerName   =   "Fight's On BR",
-version		 = "0.3.1b",
+installed 	 = true,
+displayName     = _("PnB"),
+developerName   =   "Neko PMC",
+version		 = "0.0.1",
 state		 = "installed",
-info		 = _("A-29B"),
+info		 = _("Blimpy does what blimpy wants."),
 
 InputProfiles =
 {
-    ["A-29B"] = current_mod_path .. '/Input/A-29B',
+    ["PnB"] = current_mod_path .. '/Input/A-29B',
 },
 
 
 Skins	=
 	{
 		{
-			name	= _("A-29B"),
+			name	= _("PnB"),
 			dir		= "Skins/1"
 		},
 	},
@@ -26,7 +26,7 @@ Skins	=
 Missions =
 	{
 		{
-			name		= _("A-29B"),
+			name		= _("PnB"),
 			dir			= "Missions",
 		},
 	},
@@ -35,8 +35,8 @@ Missions =
 LogBook =
 	{
 		{
-			name		= _("A-29B"),
-			type		= "A-29B",
+			name		= _("PnB"),
+			type		= "PnB",
 		},
 	},		
 })
@@ -52,7 +52,7 @@ dofile(current_mod_path..'/weapons.lua')
 
 dofile(current_mod_path..'/A-29B.lua')
 dofile(current_mod_path.."/Views.lua")
-make_view_settings('A-29B', ViewSettings, SnapViews)
+make_view_settings('PnB', ViewSettings, SnapViews)
 mount_vfs_sound_path (current_mod_path.."/Sounds/")
 
 
