@@ -1,4 +1,4 @@
-local self_ID  = "PnB" 
+local self_ID  = "A-29B" 
 
 declare_plugin(self_ID,
 {

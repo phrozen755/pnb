@@ -7,7 +7,7 @@ mount_vfs_texture_path  (current_mod_path.."/Textures/")
 mount_vfs_sound_path    (current_mod_path.."/Sounds")
 
 A_29B =  {
-	Name 				=   'PnB',
+	Name 				=   'A-29B',
 	DisplayName			= _('PnB'),
 	Cannon 				= "yes",
 	HumanCockpit 		= false,
