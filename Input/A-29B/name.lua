@@ -1,1 +1,1 @@
-return _('PnB')
+return _('A-29B')

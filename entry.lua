@@ -11,14 +11,14 @@ info		 = _("Blimpy does what blimpy wants."),
 
 InputProfiles =
 {
-    ["PnB"] = current_mod_path .. '/Input/A-29B',
+    ["A-29B"] = current_mod_path .. '/Input/A-29B',
 },
 
 
 Skins	=
 	{
 		{
-			name	= _("PnB"),
+			name	= _("A-29B"),
 			dir		= "Skins/1"
 		},
 	},
@@ -26,7 +26,7 @@ Skins	=
 Missions =
 	{
 		{
-			name		= _("PnB"),
+			name		= _("A-29B"),
 			dir			= "Missions",
 		},
 	},
@@ -35,8 +35,8 @@ Missions =
 LogBook =
 	{
 		{
-			name		= _("PnB"),
-			type		= "PnB",
+			name		= _("A-29B"),
+			type		= "A-29B",
 		},
 	},		
 })
