@@ -19,7 +19,7 @@ init_pageID = PAGE_ID
 -- -- dedicated_viewport_arcade    = hud_only_view_position
 
 
--- -- local default_viewport = try_find_assigned_viewport('A29B_LEFT_MFCD', 'LEFT_MFCD')
+-- -- local default_viewport = try_find_assigned_viewport('PNB_LEFT_MFCD', 'LEFT_MFCD')
 -- -- if default_viewport then
 -- --     dedicated_viewport = {default_viewport.x, default_viewport.y, default_viewport.width, default_viewport.height}
 -- --     dedicated_viewport_arcade = {default_viewport.x, default_viewport.y, default_viewport.width, default_viewport.height}
@@ -28,4 +28,4 @@ init_pageID = PAGE_ID
 -- -- end
 
 dofile(LockOn_Options.common_script_path.."ViewportHandling.lua") 
-try_find_assigned_viewport("A29B_LEFT_MFCD")
+try_find_assigned_viewport("PNB_LEFT_MFCD")

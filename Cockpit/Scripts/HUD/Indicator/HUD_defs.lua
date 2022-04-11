@@ -53,7 +53,7 @@ HUD_TEX_IND2_Y    = "hud_tex_ind2_y"
 HUD_LINE_DEF      = "hud_line_dashed_def"
 
 --[[
-local font_desc = fontdescription["a29b_font_hud"]
+local font_desc = fontdescription["pnb_font_hud"]
 HUD_IND_FONT    = MakeFont(font_desc, HUD_IND_COLOR,   "HUD_IND_FONT")
 HUD_IND_FONT_R  = MakeFont(font_desc, HUD_IND_COLOR_R, "HUD_IND_FONT_R")
 HUD_IND_FONT_G  = MakeFont(font_desc, HUD_IND_COLOR_G, "HUD_IND_FONT_G")

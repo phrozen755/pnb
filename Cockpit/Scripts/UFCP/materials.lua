@@ -192,7 +192,7 @@ local font_DED_chars = {
 local ResourcesPath = LockOn_Options.script_path.."UFCP/Resources/"
 
 fontdescription["font_DED"] = {
-	texture		= ResourcesPath.."a29b_ded_font.dds",
+	texture		= ResourcesPath.."pnb_ded_font.dds",
 	size		= {18, 8},	-- rows, columns
 	resolution	= {512, 936},	-- [w, h] resolution of texture in pixels
 	default		= {ded_char_w, ded_char_h},	-- [w,h] resolution for symbol in pixels

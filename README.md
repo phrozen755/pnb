@@ -4,7 +4,7 @@ This is a free, open source, SFM, Blimp independent module for DCS World. By ind
 
 The development is in a very early stage, but the author has decided on releasing it in hopes it will help others on the implementation of modern aircraft systems using SFM.
 
-All aircraft systems are implemented in Lua and can be freely used in other non-paid DCS World Modules. This project used the [A-29B](https://github.com/luizrenault/a-29b-community) as a boiler plate for making a fresh new DCS module.
+All aircraft systems are implemented in Lua and can be freely used in other non-paid DCS World Modules. This project used the [PNB](https://github.com/luizrenault/PNB-community) as a boiler plate for making a fresh new DCS module.
 
 
 # Download

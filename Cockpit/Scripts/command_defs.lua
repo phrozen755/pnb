@@ -76,7 +76,7 @@ Keys =
 
     -- add custom commands here --
 
-    ---- A-29B
+    ---- PNB
     EngineStart                     = __custom_counter(),
     EngineStartCenter               = __custom_counter(),
     EngineStartInterrupt            = __custom_counter(),
