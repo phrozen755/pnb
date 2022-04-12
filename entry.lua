@@ -42,7 +42,7 @@ LogBook =
 })
 
 mount_vfs_texture_path  (current_mod_path ..  "/Theme/ME")--for simulator loading window
-mount_vfs_texture_path  (current_mod_path ..  "/Textures/APNB")
+mount_vfs_texture_path  (current_mod_path ..  "/Textures/PNB")
 mount_vfs_model_path    (current_mod_path ..  "/Shapes")
 
 

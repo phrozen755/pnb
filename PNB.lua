@@ -413,7 +413,7 @@ A_29B =  {
 					use_full_connector_position = false,
 				},
 				{
-					{ CLSID = "{A-29B TANK}" },
+					{ CLSID = "{PNB TANK}" },
 
 					{ CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" }, -- Mk-20 Rockeye
 					{ CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" }, -- Mk-81
@@ -441,7 +441,7 @@ A_29B =  {
 					use_full_connector_position = false,
 				},
 				{
-					{ CLSID = "{A-29B TANK}" },
+					{ CLSID = "{PNB TANK}" },
 
 					{ CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" }, -- Mk-20 Rockeye
 					{ CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" }, -- Mk-81
@@ -462,7 +462,7 @@ A_29B =  {
 					use_full_connector_position = false,
 				 },
 				{
-					{ CLSID = "{A-29B TANK}" },
+					{ CLSID = "{PNB TANK}" },
 	
 					{ CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" }, -- Mk-20 Rockeye
 					{ CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" }, -- Mk-81
@@ -864,7 +864,7 @@ A_29B =  {
 
 	DamageParts = 
 	{  
-		[1] = "A-29B-collision", -- wing R
+		[1] = "PNB-collision", -- wing R
 	},
 
 	Failures = {
@@ -941,9 +941,9 @@ A_29B =  {
         MaxHeight = "20000",
         MaxSpeed = "3000",
         MaxTakeOffWeight = "41200",
-        Picture = "A-29B.png",
+        Picture = "PNB.png",
         Rate = "30",
-        Shape = "A-29B",
+        Shape = "PNB",
         TakeOffRWCategories = 
         {
             [1] = 
