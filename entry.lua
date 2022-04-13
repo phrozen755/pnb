@@ -3,7 +3,7 @@ local self_ID  = "PNB"
 declare_plugin(self_ID,
 {
 installed 	 = true,
-displayName     = _("PnB"),
+displayName     = _("PNB"),
 developerName   =   "Neko PMC",
 version		 = "0.0.1",
 state		 = "installed",
