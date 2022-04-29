@@ -6,7 +6,7 @@ mount_vfs_texture_path  (current_mod_path.."/Textures/PNB.zip")
 mount_vfs_texture_path  (current_mod_path.."/Textures/")
 mount_vfs_sound_path    (current_mod_path.."/Sounds")
 
-A_29B =  {
+PNB =  {
 	Name 				=   'PNB',
 	DisplayName			= _('PNB'),
 	Cannon 				= "yes",
@@ -92,14 +92,14 @@ A_29B =  {
 	mapclasskey 		= "P0091000024",
 	
 --WorldID      = 54,
---index          =  A_29B;
---attribute     = {wsType_Air, wsType_Airplane, wsType_Fighter, A_29B, Su_25T, "Fighters", "Refuelable",},
+--index          =  PNB;
+--attribute     = {wsType_Air, wsType_Airplane, wsType_Fighter, PNB, Su_25T, "Fighters", "Refuelable",},
 --Categories= {"{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}", "Interceptor",},
 
 
 		
     index       =  WSTYPE_PLACEHOLDER;
-	attribute  	= {wsType_Air, wsType_Airplane, wsType_Fighter, WSTYPE_PLACEHOLDER ,A_29B,"Fighters", "Refuelable",},
+	attribute  	= {wsType_Air, wsType_Airplane, wsType_Fighter, WSTYPE_PLACEHOLDER ,PNB,"Fighters", "Refuelable",},
 	Categories	= {"{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}", "Interceptor",},	
 	    M_empty									=	3356,  -- kg
 		M_nominal								=	3900,  -- kg  -- kg ~ %50 fuel, combat load
@@ -986,5 +986,5 @@ A_29B =  {
 	}, -- 3dsmax X, Z, -Y
 }
 
-add_aircraft(A_29B)
+add_aircraft(PNB)
 	
