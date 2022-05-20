@@ -109,7 +109,7 @@ PNB =  {
 		H_max									=	10668 , -- m
 
 		average_fuel_consumption 	= 0.302, -- this is highly relative, but good estimates are 36-40l/min = 28-31kg/min = 0.47-0.52kg/s -- 45l/min = 35kg/min = 0.583kg/s
-        defFuelRatio    			= 0.68, -- топливо по умолчанию в долях от полного
+        defFuelRatio    			= 0.68, -- default fuel in fractions of full
 		CAS_min 					= 53, -- if this is not OVERAL FLIGHT TIME, but jus LOITER TIME, than it sholud be 10-15 minutes.....CAS capability in minute (for AI)
 		V_opt 						= 240/1.944,-- Cruise speed (for AI) –- Assume Mach 0.80 at 20000 ft as optimal. See -- http://www.nasa.gov/centers/dryden/pdf/87789main_H-636.pdf and		–- http://www.hochwarth.com/misc/AviationCalculator.html 		–- Mach 0.8 at 20000 = XXX kts TAS = XXX m / s
 		V_take_off 					= 120/1.944, -- Take off speed in m/s (for AI)
@@ -124,7 +124,7 @@ PNB =  {
 		AOA_take_off 				= math.rad(9.0), -- AoA in take off (for AI) -- in radians
 		bank_angle_max 				= 60, -- Max bank angle (for AI)
 	
-		has_afteburner 				= false, -- AFB yes/no
+		has_afteburner 				= true, -- AFB yes/no
 		has_speedbrake 				= true, -- Speedbrake yes/no
 		has_differential_stabilizer	= false, -- differential stabilizers
 
@@ -142,8 +142,6 @@ PNB =  {
 		nose_gear_wheel_diameter	=	0.433, --in m
 		main_gear_wheel_diameter	=	0.563, -- in m
 	
-	
-
 		wing_area 					= 19.4, -- wing area in m2
 		wing_span 					= 11.135, -- wing span in m
 		wing_type 					= 0,
@@ -548,7 +546,7 @@ PNB =  {
 	SFM_Data = {
 		aerodynamics = 
 		{
-			Cy0	=	0.1933, -- Coefficient of lift at zero angle of attack -- Always 0 for symmetrical airfoil
+			Cy0	=	0, -- Coefficient of lift at zero angle of attack -- Always 0 for symmetrical airfoil
 			Mzalfa	=	4.355, -- Horizontal tail pitch coefficient
 			Mzalfadt	=	0.8,  -- Wing pitch coefficient
 			kjx = 2.25, -- Roll rate acceleration constant in radians / second  -- Inertia parametre X - Dimension (clean) airframe drag coefficient at X (Top) Simply the wing area in square meters (as that is a major factor in drag calculations) - smaller = massive inertia
@@ -556,9 +554,9 @@ PNB =  {
 
 			Czbe = -0.056, -- Directional stability coefficient  -- coefficient, along Z axis (perpendicular), affects yaw, negative value means force orientation in FC coordinate system
 			
-			cx_gear = 0.0277, -- Additional coefficient of drag for gear extended
-			cx_flap = 0.095, -- Additional coefficient of drag for flap extended
-			cy_flap = 0.18, -- Additional coefficient of lift for flap extended
+			cx_gear = 0, -- Additional coefficient of drag for gear extended
+			cx_flap = 0, -- Additional coefficient of drag for flap extended
+			cy_flap = 0, -- Additional coefficient of lift for flap extended
 			cx_brk = 0.065, -- Additional coefficient of drag for air brakes
 			
 			-- Hi guys. I try to calculate the rollrate, or maxrollrate (omxmax) for a plane and I've got the measurements of the plane, Cl (rolling moment coefficient) and Clp.
@@ -664,8 +662,8 @@ PNB =  {
 				{8.6, 880},
 				{13.0, 601},
 			},
-			Startup_Ignition_Time = 8.3,
-			Shutdown_Duration = 9.8,
+			Startup_Ignition_Time = 1,
+			Shutdown_Duration = 1,
 
 			table_data = {
 			-- Pmax - total thrust in Mil Pwr in Newtons for all engines
@@ -703,7 +701,6 @@ PNB =  {
 										{     5000,    5000,    5000,    5000,    5000,   5000,   5000,   5000,    5000,   5000 },--H = 12192 (40kft)
                                         
                             },
-                        },
 						TSFC_max =  -- thrust specific fuel consumption by altitude and Mach number for RPM  100%, 2d table
 						{			-- factor = kg/h /2000
                             M 		 = {0/666.739, 140/666.739, 160/666.739, 200/666.739, 220/666.739, 260/666.739, 300/666.739},
@@ -937,9 +934,9 @@ PNB =  {
                 Name = "AircraftCarrier",
             }, -- end of [1]
         }, -- end of LandRWCategories
-		MaxFuelWeight = "15245",
-        MaxHeight = "20000",
-        MaxSpeed = "3000",
+		MaxFuelWeight = "5000",
+        MaxHeight = "35000",
+        MaxSpeed = "300",
         MaxTakeOffWeight = "41200",
         Picture = "PNB.png",
         Rate = "30",
@@ -964,9 +961,9 @@ PNB =  {
 
 	passivCounterm = {
 		CMDS_Edit = true,
-		SingleChargeTotal = 60,
-		chaff = {default = 30, increment = 1, chargeSz = 1},
-		flare = {default = 30,  increment = 1, chargeSz = 1},
+		SingleChargeTotal = 250,
+		chaff = {default = 500, increment = 1, chargeSz = 1},
+		flare = {default = 500,  increment = 1, chargeSz = 1},
 	},
 
 	chaff_flare_dispenser 	= {
