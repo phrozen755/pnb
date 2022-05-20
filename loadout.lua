@@ -1,6 +1,6 @@
 declare_loadout({
 	category		 = CAT_FUEL_TANKS,
-	CLSID			 = "{A-29B TANK}",
+	CLSID			 = "{PNB TANK}",
 	attribute		 =  {wsType_Air,wsType_Free_Fall,wsType_FuelTank,WSTYPE_PLACEHOLDER},
 
 
@@ -36,25 +36,25 @@ declare_loadout({
     }, -- end of TakeOffRWCategories
 
 	Picture			 = "ptb2.png",
-	displayName		 = _("A-29B TANK"),
+	displayName		 = _("PNBB TANK"),
 	Weight_Empty	 = 40.8,
 	Weight			 = 40.8 +  230.3,
 	Cx_pil			 = 0.002,
 	shape_table_data = 
 	{
 		{
-			name 	= "A-29B TANK",
-			file	= "A-29B TANK";
+			name 	= "PNB TANK",
+			file	= "PNB TANK";
 			life	= 1;
 			fire	= { 0, 1};
-			username	= "A-29B TANK";
+			username	= "PNB TANK";
 			index	= WSTYPE_PLACEHOLDER;
 		},
 	},
 	Elements	= 
 	{
 		{
-			ShapeName	= "A-29B TANK",
+			ShapeName	= "PNB TANK",
 		}, 
 	}, 
 })
@@ -62,7 +62,7 @@ declare_loadout({
 declare_loadout(
 	{
 		category		= CAT_PODS,
-		CLSID			= "{SMOKE-WHITE-A29B}",
+		CLSID			= "{SMOKE-WHITE-PNB}",
 		Picture	= "fumo.png",
 		PictureBlendColor= '0xffffffff',		
 		displayName		= _("White Smoke"),
@@ -80,11 +80,11 @@ declare_loadout(
 		shape_table_data = 
 		{
 			{
-				name 	= "A29B_SMOKE-POD",
-				file	= "A29B_SMOKE-POD";
+				name 	= "PNB_SMOKE-POD",
+				file	= "PNB_SMOKE-POD";
 				life	= 1;
 				fire	= { 0, 1};
-				username	= "SMOKE_WHITE_A29B";
+				username	= "SMOKE_WHITE_PNB";
 				index	= WSTYPE_PLACEHOLDER;
 			},
 		},
@@ -92,7 +92,7 @@ declare_loadout(
 		Count 			= 1,
 		Cx_pil			= 0.0,--0.001313754,
 		Elements		={{
-							ShapeName	=	"A29B_SMOKE-POD", 
+							ShapeName	=	"PNB_SMOKE-POD", 
 							Position	=	{0,- 0.059317,0}, 
 							DrawArgs	=	{[3] = {3,0.1}}
 						}}
@@ -102,7 +102,7 @@ declare_loadout(
 declare_loadout(
 	{
 		category		= CAT_PODS,
-		CLSID			= "{SMOKE-RED-A29B}",
+		CLSID			= "{SMOKE-RED-PNB}",
 		Picture	= "fumo.png",
 		PictureBlendColor= '0xc81e1eff',	
 		displayName		= _("Red Smoke"),
@@ -120,11 +120,11 @@ declare_loadout(
 		shape_table_data = 
 		{
 			{
-				name 	= "A29B_SMOKE-POD",
-				file	= "A29B_SMOKE-POD";
+				name 	= "PNB_SMOKE-POD",
+				file	= "PNB_SMOKE-POD";
 				life	= 1;
 				fire	= { 0, 1};
-				username	= "SMOKE_RED_A29B";
+				username	= "SMOKE_RED_PNB";
 				index	= WSTYPE_PLACEHOLDER;
 			},
 		},
@@ -132,7 +132,7 @@ declare_loadout(
 		Count 			= 1,
 		Cx_pil			= 0.0,--0.001313754,
 		Elements		={{
-							ShapeName	=	"A29B_SMOKE-POD", 
+							ShapeName	=	"PNB_SMOKE-POD", 
 							Position	=	{0,- 0.059317,0}, 
 							DrawArgs	=	{[3] = {3,0.1}}
 						}}
@@ -142,7 +142,7 @@ declare_loadout(
 declare_loadout(
 	{
 		category		= CAT_PODS,
-		CLSID			= "{SMOKE-GREEN-A29B}",
+		CLSID			= "{SMOKE-GREEN-PNB}",
 		Picture	= "fumo.png",
 		PictureBlendColor= '0x228b22ff',
 		displayName		= _("Green Smoke"),
@@ -160,11 +160,11 @@ declare_loadout(
 		shape_table_data = 
 		{
 			{
-				name 	= "A29B_SMOKE-POD",
-				file	= "A29B_SMOKE-POD";
+				name 	= "PNB_SMOKE-POD",
+				file	= "PNB_SMOKE-POD";
 				life	= 1;
 				fire	= { 0, 1};
-				username	= "SMOKE_GREEN_A29B";
+				username	= "SMOKE_GREEN_PNB";
 				index	= WSTYPE_PLACEHOLDER;
 			},
 		},
@@ -172,7 +172,7 @@ declare_loadout(
 		Count 			= 1,
 		Cx_pil			= 0.0,--0.001313754,
 		Elements		={{
-							ShapeName	=	"A29B_SMOKE-POD", 
+							ShapeName	=	"PNB_SMOKE-POD", 
 							Position	=	{0,- 0.059317,0}, 
 							DrawArgs	=	{[3] = {3,0.1}}
 						}}
@@ -182,7 +182,7 @@ declare_loadout(
 declare_loadout(
 	{
 		category		= CAT_PODS,
-		CLSID			= "{SMOKE-BLACK-A29B}",
+		CLSID			= "{SMOKE-BLACK-PNB}",
 		Picture	= "fumo.png",
 		PictureBlendColor= '0x000000ff',	
 		displayName		= _("Black Smoke"),
@@ -200,11 +200,11 @@ declare_loadout(
 		shape_table_data = 
 		{
 			{
-				name 	= "A29B_SMOKE-POD",
-				file	= "A29B_SMOKE-POD";
+				name 	= "PNB_SMOKE-POD",
+				file	= "PNB_SMOKE-POD";
 				life	= 1;
 				fire	= { 0, 1};
-				username	= "SMOKE_BLACK_A29B";
+				username	= "SMOKE_BLACK_PNB";
 				index	= WSTYPE_PLACEHOLDER;
 			},
 		},
@@ -212,7 +212,7 @@ declare_loadout(
 		Count 			= 1,
 		Cx_pil			= 0.0,--0.001313754,
 		Elements		={{
-							ShapeName	=	"A29B_SMOKE-POD", 
+							ShapeName	=	"PNB_SMOKE-POD", 
 							Position	=	{0,- 0.059317,0}, 
 							DrawArgs	=	{[3] = {3,0.1}}
 						}}
@@ -222,7 +222,7 @@ declare_loadout(
 declare_loadout(
 	{
 		category		= CAT_PODS,
-		CLSID			= "{SMOKE-ORANGE-A29B}",	--"{SMOKE-ORANGE-MB339}",
+		CLSID			= "{SMOKE-ORANGE-PNB}",	--"{SMOKE-ORANGE-MB339}",
 		Picture	= "fumo.png",
 		PictureBlendColor= '0xfc9600ff',		
 		displayName		= _("Orange Smoke"),
@@ -244,7 +244,7 @@ declare_loadout(
 				file	= "smoke_pod";
 				life	= 1;
 				fire	= { 0, 1};
-				username	= "SMOKE_ORANGE_A29B";
+				username	= "SMOKE_ORANGE_PNB";
 				index	= WSTYPE_PLACEHOLDER;
 			},
 		},
@@ -262,7 +262,7 @@ declare_loadout(
 declare_loadout(
 	{
 		category		= CAT_PODS,
-		CLSID			= "{SMOKE-YELLOW-A29B}",
+		CLSID			= "{SMOKE-YELLOW-PNB}",
 		Picture	= "fumo.png",
 		PictureBlendColor= '0xffff00ff',		
 		displayName		= _("Yellow Smoke"),
@@ -284,7 +284,7 @@ declare_loadout(
 				file	= "smoke_pod";
 				life	= 1;
 				fire	= { 0, 1};
-				username	= "SMOKE_YELLOW_A29B";
+				username	= "SMOKE_YELLOW_PNB";
 				index	= WSTYPE_PLACEHOLDER;
 			},
 		},

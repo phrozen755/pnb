@@ -301,9 +301,9 @@ SnapViews = {
 -- 2021-04-16 19:54:21.316 INFO    COCKPITBASE: lua state still active HUD, 11
 -- 2021-04-16 19:54:21.316 INFO    COCKPITBASE: lua state still active AVIONICS, 12
 -- 2021-04-16 19:54:21.316 INFO    COCKPITBASE: avBaseRadio::ext_set_modulation not implemented, used direct set
--- 2021-04-16 19:54:21.316 INFO    \DCS\Mods/aircraft/A-29B/Cockpit/Scripts/Systems/uhf_radio.lua: is_on = false
--- 2021-04-16 19:54:21.316 INFO    \DCS\Mods/aircraft/A-29B/Cockpit/Scripts/Systems/uhf_radio.lua: get_frequency = 256000288
--- 2021-04-16 19:54:21.316 INFO    \DCS\Mods/aircraft/A-29B/Cockpit/Scripts/Systems/uhf_radio.lua: get_modulation = 0
+-- 2021-04-16 19:54:21.316 INFO    \DCS\Mods/aircraft/PNB/Cockpit/Scripts/Systems/uhf_radio.lua: is_on = false
+-- 2021-04-16 19:54:21.316 INFO    \DCS\Mods/aircraft/PNB/Cockpit/Scripts/Systems/uhf_radio.lua: get_frequency = 256000288
+-- 2021-04-16 19:54:21.316 INFO    \DCS\Mods/aircraft/PNB/Cockpit/Scripts/Systems/uhf_radio.lua: get_modulation = 0
 -- 2021-04-16 19:54:21.316 INFO    COCKPITBASE: lua state still active UHF_RADIO, 13
 -- 2021-04-16 19:54:21.316 INFO    COCKPITBASE: lua state still active RADIO, 14
 -- 2021-04-16 19:54:21.316 INFO    COCKPITBASE: lua state still active AIRBRAKE, 15

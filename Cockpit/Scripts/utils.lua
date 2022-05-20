@@ -920,7 +920,7 @@ end
 -- _G["__index"]["log"]["MESSAGE"] = 0
 -- _G["__index"]["gcinfo"] = function: 000002D271B780A0
 -- _G["__index"]["LockOn_Options"] = {}
--- _G["__index"]["LockOn_Options"]["script_path"] = "C:\\Users\\cadre\\Saved Games\\DCS\\Mods/aircraft/A-29B/Cockpit/Scripts/"
+-- _G["__index"]["LockOn_Options"]["script_path"] = "C:\\Users\\cadre\\Saved Games\\DCS\\Mods/aircraft/PNB/Cockpit/Scripts/"
 -- _G["__index"]["LockOn_Options"]["cockpit_language"] = "russian"
 -- _G["__index"]["LockOn_Options"]["common_script_path"] = "Scripts/Aircrafts/_Common/Cockpit/"
 -- _G["__index"]["LockOn_Options"]["date"] = {}

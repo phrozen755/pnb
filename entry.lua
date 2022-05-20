@@ -1,9 +1,9 @@
-local self_ID  = "A-29B" 
+local self_ID  = "PNB" 
 
 declare_plugin(self_ID,
 {
 installed 	 = true,
-displayName     = _("PnB"),
+displayName     = _("PNB"),
 developerName   =   "Neko PMC",
 version		 = "0.0.1",
 state		 = "installed",
@@ -11,14 +11,14 @@ info		 = _("Blimpy does what blimpy wants."),
 
 InputProfiles =
 {
-    ["A-29B"] = current_mod_path .. '/Input/A-29B',
+    ["PNB"] = current_mod_path .. '/Input/PNB',
 },
 
 
 Skins	=
 	{
 		{
-			name	= _("A-29B"),
+			name	= _("PNB"),
 			dir		= "Skins/1"
 		},
 	},
@@ -26,7 +26,7 @@ Skins	=
 Missions =
 	{
 		{
-			name		= _("A-29B"),
+			name		= _("PNB"),
 			dir			= "Missions",
 		},
 	},
@@ -35,14 +35,14 @@ Missions =
 LogBook =
 	{
 		{
-			name		= _("A-29B"),
-			type		= "A-29B",
+			name		= _("PNB"),
+			type		= "PNB",
 		},
 	},		
 })
 
 mount_vfs_texture_path  (current_mod_path ..  "/Theme/ME")--for simulator loading window
-mount_vfs_texture_path  (current_mod_path ..  "/Textures/A-29B")
+mount_vfs_texture_path  (current_mod_path ..  "/Textures/PNB")
 mount_vfs_model_path    (current_mod_path ..  "/Shapes")
 
 
@@ -50,13 +50,13 @@ mount_vfs_model_path    (current_mod_path ..  "/Shapes")
 dofile(current_mod_path..'/loadout.lua')
 dofile(current_mod_path..'/weapons.lua')
 
-dofile(current_mod_path..'/A-29B.lua')
+dofile(current_mod_path..'/PNB.lua')
 dofile(current_mod_path.."/Views.lua")
-make_view_settings('PnB', ViewSettings, SnapViews)
+make_view_settings('PNB', ViewSettings, SnapViews)
 mount_vfs_sound_path (current_mod_path.."/Sounds/")
 
 
 ----------------------------------------------------------------------------------------
-make_flyable('A-29B', current_mod_path..'/Cockpit/Scripts/' , nil , current_mod_path..'/comm.lua')
+make_flyable('PNB', current_mod_path..'/Cockpit/Scripts/' , nil , current_mod_path..'/comm.lua')
 ----------------------------------------------------------------------------------------
 plugin_done()

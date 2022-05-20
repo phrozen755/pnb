@@ -1,0 +1,19 @@
+wave = {
+    "Effects/Aircrafts/PNB/knob1.wav",
+    "Effects/Aircrafts/PNB/knob2.wav",
+    "Effects/Aircrafts/PNB/knob3.wav",
+    "Effects/Aircrafts/PNB/knob4.wav",
+    "Effects/Aircrafts/PNB/knob5.wav",
+    "Effects/Aircrafts/PNB/knob6.wav",
+    "Effects/Aircrafts/PNB/knob7.wav",
+    "Effects/Aircrafts/PNB/knob8.wav"
+    }
+
+inner_radius = 1
+outer_radius = 4
+
+position = {0,-0.2,-0.5}
+
+detached = true
+
+listmode = RANDOM

@@ -1,4 +1,4 @@
-shape_name   	   = "Cockpit_A-29B"
+shape_name   	   = "Cockpit_PNB"
 is_EDM			   = true
 new_model_format   = true
 ambient_light    = {255,255,255}

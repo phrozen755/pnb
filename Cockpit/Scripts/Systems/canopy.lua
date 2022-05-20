@@ -58,8 +58,8 @@ local canopy_move_snd
 
 function post_initialize()
     sndhost = create_sound_host("COCKPIT_CANOPY","HEADPHONES",0,0,0)
-    canopy_snd = sndhost:create_sound("Aircrafts/A-29B/Canopy")
-    canopy_move_snd = sndhost:create_sound("Aircrafts/A-29B/CanopyMove")
+    canopy_snd = sndhost:create_sound("Aircrafts/PNB/Canopy")
+    canopy_move_snd = sndhost:create_sound("Aircrafts/PNB/CanopyMove")
 end
 
 function update()

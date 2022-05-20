@@ -1,0 +1,5 @@
+model = {
+	lods = {		
+		{"Cockpit_PNB.edm",20000.000000},
+	};
+}

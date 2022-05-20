@@ -370,7 +370,7 @@ end
 
 dev:listen_command(Keys.BatteryPower)
 dev:listen_command(Keys.PowerGeneratorLeft)
-dev:listen_command(Keys.PowerGeneratorRight)  -- No 2nd generator on A-29B
+dev:listen_command(Keys.PowerGeneratorRight)  -- No 2nd generator on PNB
 
 dev:listen_command(device_commands.ElecBatt)
 dev:listen_command(device_commands.ElecGen)
